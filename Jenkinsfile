@@ -6,7 +6,7 @@ pipeline{
     stages {
        stage('git checkout stage'){
            steps{
-               git 'https://github.com/cloudtechmasters/springboohello-CICD.git'
+               git 'https://github.com/srinadhm/springboothello-CICD.git'
            }
        }
        stage('build  stage'){
